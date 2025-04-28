@@ -11,7 +11,7 @@ features = ['Gender', 'Senior_Citizen', 'Partner', 'Dependents', 'Tenure_Months'
 'Internet_Service', 'Online_Security', 'Online_Backup', 'Device_Protection', 'Tech_Support', 
 'Streaming_TV', 'Streaming_Movies', 'Contract', 'Paperless_Billing', 'Payment_Method', 
 'Monthly_Charges', 'Total_Charges', 'Count', 'Latitude', 'Longitude', 'CLTV', 'Churn_Score', 
-'Churn_Value', 'Churn_Score']
+'Churn_Value']
 
 # Sidebar option
 option = st.sidebar.selectbox("Select Prediction Type:", ("Single Input", "Bulk Upload"))
