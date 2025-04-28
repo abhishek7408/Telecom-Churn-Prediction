@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 
 # Load model
-model = joblib.load('saved_model.pkl')
+model = joblib.load('dt_model.pkl')
 
 # Feature list
 features = ['Gender', 'Senior_Citizen', 'Partner', 'Dependents', 'Phone_Service', 'Multiple_Lines', 
